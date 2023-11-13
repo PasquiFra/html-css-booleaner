@@ -4,6 +4,52 @@
 {}
 }*/
 
-* {
-    background-color: aqua;
+/* generale */
+body {
+    margin: 0;
+}
+
+/*utils*/
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+header{
+    width: 100%;
+}
+
+.main-logo {
+    background-image: url(../../html-css-booleaner/img/pattern.png);
+    background-color: rgb(81, 168, 255);
+    background-size: 23%;
+    height: 75px;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.main-title {
+    margin-bottom: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+#pub-date {
+    margin-top: 5px;
+}
+
+.the-booleaner-link {
+    text-decoration: none;
+    color: rgb(3, 192, 255);
+}
+
+address>div {
+    color: rgb(100, 100, 100);
 }
